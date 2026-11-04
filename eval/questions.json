@@ -1,0 +1,11 @@
+[
+  {"question": "How much storage does the free plan include?", "expected_source": "backup-basics.md", "must_contain": "10 GB"},
+  {"question": "How often does the agent back up by default?", "expected_source": "backup-basics.md", "must_contain": "every hour"},
+  {"question": "Which encryption is used before upload?", "expected_source": "backup-basics.md", "must_contain": "AES-256"},
+  {"question": "How long are deleted files recoverable on the Team plan?", "expected_source": "restore-and-retention.md", "must_contain": "180 days"},
+  {"question": "How long are previous file versions kept on the free plan?", "expected_source": "restore-and-retention.md", "must_contain": "14 days"},
+  {"question": "How can I restore more than 50 GB?", "expected_source": "restore-and-retention.md", "must_contain": "encrypted drive"},
+  {"question": "How much does the Team plan cost per user?", "expected_source": "billing-and-support.md", "must_contain": "12 dollars"},
+  {"question": "When is live chat support available?", "expected_source": "billing-and-support.md", "must_contain": "Monday to Friday"},
+  {"question": "What happens to backups after 90 days without a connection?", "expected_source": "billing-and-support.md", "must_contain": "paused"}
+]
